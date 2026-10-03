@@ -1,0 +1,22 @@
+firebase_key.json not found - Firebase disabled for this session
+{'name': 'en-clean', 'language': 'en', 'seconds': 0.642, 'status': 200, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'en-blur-2', 'language': 'en', 'seconds': 0.27, 'status': 200, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'en-blur-4', 'language': 'en', 'seconds': 0.286, 'status': 200, 'wer': 0.0, 'previousWER': 0.6429}
+{'name': 'en-rotate-8', 'language': 'en', 'seconds': 0.319, 'status': 200, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'en-low-resolution', 'language': 'en', 'seconds': 0.271, 'status': 200, 'wer': 0.0, 'previousWER': 0.0714}
+{'name': 'hi-clean', 'language': 'hi', 'seconds': 0.624, 'status': 200, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'hi-blur-2', 'language': 'hi', 'seconds': 0.576, 'status': 200, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'hi-blur-4', 'language': 'hi', 'seconds': 0.581, 'status': 200, 'wer': 0.0, 'previousWER': 0.7143}
+{'name': 'hi-rotate-8', 'language': 'hi', 'seconds': 0.466, 'status': 200, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'hi-low-resolution', 'language': 'hi', 'seconds': 0.353, 'status': 200, 'wer': 0.0, 'previousWER': 0.2857}
+{'name': 'mr-clean', 'language': 'mr', 'seconds': 0.41, 'status': 200, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'mr-blur-2', 'language': 'mr', 'seconds': 0.425, 'status': 200, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'mr-blur-4', 'language': 'mr', 'seconds': 0.451, 'status': 200, 'wer': 0.2222, 'previousWER': 0.2222}
+{'name': 'mr-rotate-8', 'language': 'mr', 'seconds': 0.529, 'status': 200, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'mr-low-resolution', 'language': 'mr', 'seconds': 0.47, 'status': 200, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'en-two-columns', 'language': 'en', 'seconds': 0.433, 'status': 200, 'wer': 0.0, 'previousWER': 0.037}
+{'name': 'en-grid-table', 'language': 'en', 'seconds': 0.416, 'status': 200, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'blank-page', 'language': 'en', 'seconds': 0.272, 'status': 400, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'en-real-handwriting', 'language': 'en', 'seconds': 0.451, 'status': 200, 'wer': 0.3333, 'previousWER': 0.9167}
+{'name': 'en-digital-columns-pdf', 'language': 'en', 'seconds': 0.026, 'status': 200, 'wer': 0.0, 'previousWER': 0.0}
+{'name': 'en-scanned-columns-pdf', 'language': 'en', 'seconds': 0.437, 'status': 200, 'wer': 0.0, 'previousWER': 0.1111}

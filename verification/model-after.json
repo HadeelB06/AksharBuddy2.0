@@ -1,0 +1,62 @@
+[
+  {
+    "language": "en",
+    "input": "Nina has 12 books. Do not move the blue box.",
+    "output": "Nina has 12 books. Do not move the blue box.",
+    "error": null,
+    "seconds": 12.774,
+    "model_load_seconds": 9.847,
+    "inference_and_validation_seconds": 2.927,
+    "changed": false
+  },
+  {
+    "language": "hi",
+    "input": "रीमा के पास 12 किताबें हैं। किताबें बाहर मत ले जाएं।",
+    "output": "रीमा के पास 12 किताबें हैं। किताबें बाहर मत ले जाएं।",
+    "error": null,
+    "seconds": 0.926,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 0.926,
+    "changed": false
+  },
+  {
+    "language": "mr",
+    "input": "रीमाकडे 12 पुस्तके आहेत. पुस्तके बाहेर नेऊ नका.",
+    "output": "रीमाकडे 12 पुस्तके आहेत. पुस्तके बाहेर नेऊ नका.",
+    "error": null,
+    "seconds": 0.796,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 0.796,
+    "changed": false
+  },
+  {
+    "language": "en",
+    "input": "Nina has 12 books. Do not move the blue box.",
+    "output": "Nina has 12 books. Do not move the blue box.",
+    "error": null,
+    "seconds": 0.724,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 0.724,
+    "changed": false
+  },
+  {
+    "language": "hi",
+    "input": "रीमा के पास 12 किताबें हैं। किताबें बाहर मत ले जाएं।",
+    "output": "रीमा के पास 12 किताबें हैं। किताबें बाहर मत ले जाएं।",
+    "error": null,
+    "seconds": 0.831,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 0.831,
+    "changed": false
+  },
+  {
+    "language": "mr",
+    "input": "रीमाकडे 12 पुस्तके आहेत. पुस्तके बाहेर नेऊ नका.",
+    "output": "रीमाकडे 12 पुस्तके आहेत. पुस्तके बाहेर नेऊ नका.",
+    "error": null,
+    "seconds": 0.979,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 0.979,
+    "changed": false
+  }
+]

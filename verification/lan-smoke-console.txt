@@ -1,0 +1,110 @@
+firebase_key.json not found - Firebase disabled for this session
+192.168.29.68 - - [02/Oct/2026 01:44:07] "GET /health HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:07] "POST /api/extraction-jobs HTTP/1.1" 202 -
+192.168.29.68 - - [02/Oct/2026 01:44:07] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:07] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:07] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:07] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:07] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:07] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:07] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:08] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:08] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:08] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:08] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:08] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:08] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:08] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:08] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:08] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:08] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:09] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:09] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:09] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:09] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:09] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:09] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:09] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:09] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:10] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:10] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:10] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:10] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:10] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:10] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:10] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:10] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:10] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:11] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:11] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:11] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:11] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:11] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:11] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:11] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:11] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:12] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:12] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+192.168.29.68 - - [02/Oct/2026 01:44:12] "GET /api/extraction-jobs/8rZZ63dj1j5nsDDnr-9O0_NOeMjHuZaC HTTP/1.1" 200 -
+{
+  "base": "http://192.168.29.68:50514",
+  "scope": "Laptop HTTP stack via LAN IPv4; physical phone and router not tested",
+  "health": {
+    "offline": true,
+    "service": "aksharbuddy",
+    "status": "ok",
+    "version": "lan-repair-1"
+  },
+  "upload_and_enqueue_seconds": 0.233,
+  "total_seconds": 5.218,
+  "stages": [
+    {
+      "stage": "Reading page",
+      "page": 1,
+      "pages": 3
+    },
+    {
+      "stage": "Extracting text",
+      "page": 1,
+      "pages": 3
+    },
+    {
+      "stage": "Reading page",
+      "page": 2,
+      "pages": 3,
+      "completedPages": 1
+    },
+    {
+      "stage": "Extracting text",
+      "page": 2,
+      "pages": 3,
+      "completedPages": 1
+    },
+    {
+      "stage": "Reading page",
+      "page": 3,
+      "pages": 3,
+      "completedPages": 2
+    },
+    {
+      "stage": "Extracting text",
+      "page": 3,
+      "pages": 3,
+      "completedPages": 2
+    },
+    {
+      "stage": "Ready to check",
+      "page": 3,
+      "pages": 3,
+      "completedPages": 3
+    }
+  ],
+  "timings": {
+    "decode_resize": 0.126,
+    "ocr_recognition": 4.299,
+    "pdf_native_text": 0.0106,
+    "pdf_rasterize": 0.3208,
+    "preprocessing": 0.2647
+  },
+  "passed": true
+}

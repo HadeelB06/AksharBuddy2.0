@@ -1,0 +1,50 @@
+00:00 +0: loading C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/api_test.dart
+00:00 +0: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/api_test.dart: API follows saved URL changes and uses new multilingual structured contract
+00:00 +1: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_test.dart: word saves survive reload and are deduplicated by language and spelling
+00:00 +2: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_test.dart: word saves survive reload and are deduplicated by language and spelling
+00:00 +3: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_test.dart: concurrent updates do not lose words
+00:00 +4: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_test.dart: streaks use calendar dates and allow today to be unfinished
+00:00 +5: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_test.dart: repeated finish id cannot inflate totals, goals persist and clamp
+00:00 +6: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_test.dart: damaged entries do not prevent valid records loading
+00:00 +7: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_test.dart: word cleanup preserves Hindi and Marathi combining marks
+00:01 +8: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: brand and new home render in light and dark
+00:01 +9: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: brand and new home render in light and dark
+00:01 +10: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: brand and new home render in light and dark
+00:01 +11: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: brand and new home render in light and dark
+00:02 +11: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/core_test.dart: native speech progress supersedes fallback and completion clears state
+engine=null locale=hi-IN available=true offlineInstalled=1
+00:02 +12: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: brand and new home render in light and dark
+00:02 +12: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/core_test.dart: fallback scales with selected rate and disposal cancels it
+engine=null locale=mr-IN available=true offlineInstalled=1
+00:02 +13: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: brand and new home render in light and dark
+00:02 +13: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/core_test.dart: missing Hindi voice explains installation without switching language
+engine=null locale=hi-IN available=false offlineInstalled=1
+00:02 +14: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: brand and new home render in light and dark
+00:02 +15: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: brand and new home render in light and dark
+00:03 +16: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: brand and new home render in light and dark
+00:03 +17: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: brand and new home render in light and dark
+00:03 +18: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/final_reader_test.dart: progress replaced by settings in navigation
+00:03 +19: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: home remains usable at 200 percent text
+00:04 +20: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/final_reader_test.dart: reader preserves original and result in offline storage
+00:04 +21: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/final_reader_test.dart: reader preserves original and result in offline storage
+00:05 +22: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/final_reader_test.dart: reader preserves original and result in offline storage
+00:05 +23: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/final_reader_test.dart: reader preserves original and result in offline storage
+00:05 +24: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: reader opens word help without automatically making a request
+00:06 +24: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/final_reader_test.dart: listen pauses and resumes through device speech interface
+engine=null locale=en-IN available=1 offlineInstalled=1
+00:06 +25: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: reader opens word help without automatically making a request
+00:06 +25: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/final_reader_test.dart: saved reading resumes from the stored character position
+engine=null locale=en-IN available=1 offlineInstalled=1
+00:06 +26: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: reader opens word help without automatically making a request
+00:06 +27: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/word_service_test.dart: word help surfaces safe error and handles unavailable backend
+00:06 +28: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/word_service_test.dart: word help surfaces safe error and handles unavailable backend
+00:07 +29: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/word_service_test.dart: word help surfaces safe error and handles unavailable backend
+00:07 +30: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/word_service_test.dart: word help surfaces safe error and handles unavailable backend
+00:07 +31: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/final_reader_test.dart: OCR review requires nonempty corrected text
+00:07 +32: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/final_reader_test.dart: OCR review requires nonempty corrected text
+00:07 +33: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: saved words can be marked known and filtered
+00:08 +34: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: OCR correction is readable
+00:08 +35: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: saved dictionary meaning opens offline
+00:08 +36: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: words and settings tolerate 200 percent text
+00:08 +37: C:/Users/ADMIN/Documents/Playground/AksharBuddy-LAN-repair/AksharBuddy/aksharally_ui/test/buddy_ui_test.dart: reading appearance opens with an offline font and large text
+00:09 +38: All tests passed!

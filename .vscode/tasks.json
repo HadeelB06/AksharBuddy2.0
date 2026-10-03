@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [{
+    "label": "Start AksharBuddy",
+    "type": "shell",
+    "command": "powershell.exe",
+    "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/Start AksharBuddy.ps1"],
+    "problemMatcher": []
+  }]
+}

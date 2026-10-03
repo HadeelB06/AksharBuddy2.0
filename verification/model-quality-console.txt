@@ -1,0 +1,9 @@
+{'language': 'en', 'error': None, 'seconds': 35.525, 'model_load_seconds': 31.324, 'inference_and_validation_seconds': 4.201, 'changed': False}
+{'language': 'hi', 'error': None, 'seconds': 1.859, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 1.859, 'changed': False}
+{'language': 'mr', 'error': None, 'seconds': 1.29, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 1.29, 'changed': False}
+{'language': 'en', 'error': None, 'seconds': 1.197, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 1.197, 'changed': False}
+{'language': 'hi', 'error': None, 'seconds': 1.272, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 1.272, 'changed': False}
+{'language': 'mr', 'error': None, 'seconds': 2.118, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 2.118, 'changed': False}
+{'language': 'en', 'error': None, 'seconds': 1.343, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 1.343, 'changed': False}
+{'language': 'hi', 'error': None, 'seconds': 1.118, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 1.118, 'changed': False}
+{'language': 'mr', 'error': None, 'seconds': 1.331, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 1.331, 'changed': False}

@@ -1,0 +1,17 @@
+
+# Python backend
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables (CRITICAL)
+.env
+
+# Firebase credentials (if present)
+*.json
+
+# OS files
+Thumbs.db
+
+# Logs
+*.log

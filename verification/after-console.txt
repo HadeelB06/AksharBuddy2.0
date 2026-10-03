@@ -1,0 +1,6 @@
+firebase_key.json not found - Firebase disabled for this session
+{'file': 'tiny.png', 'status': 200, 'seconds': 1.714, 'stages': {'decode_resize': 0.0301, 'preprocessing': 0.0746, 'ocr_recognition': 1.5346}, 'bytes': 8442, 'transport': 'Flask test client; excludes Wi-Fi transfer', 'model_inference': False}
+{'file': 'tiny.png', 'status': 200, 'seconds': 0.234, 'stages': {'decode_resize': 0.0036, 'preprocessing': 0.0174, 'ocr_recognition': 0.2039}, 'bytes': 8442, 'transport': 'Flask test client; excludes Wi-Fi transfer', 'model_inference': False}
+{'file': 'normal.png', 'status': 200, 'seconds': 1.044, 'stages': {'decode_resize': 0.0828, 'preprocessing': 0.1242, 'ocr_recognition': 0.7801}, 'bytes': 134742, 'transport': 'Flask test client; excludes Wi-Fi transfer', 'model_inference': False}
+{'file': 'digital.pdf', 'status': 200, 'seconds': 0.067, 'stages': {'pdf_native_text': 0.0391}, 'bytes': 1766, 'transport': 'Flask test client; excludes Wi-Fi transfer', 'model_inference': False}
+{'file': 'scanned.pdf', 'status': 200, 'seconds': 4.318, 'stages': {'pdf_native_text': 0.0084, 'pdf_rasterize': 0.6712, 'decode_resize': 0.2331, 'preprocessing': 0.412, 'ocr_recognition': 2.7518}, 'bytes': 7984204, 'transport': 'Flask test client; excludes Wi-Fi transfer', 'model_inference': False}

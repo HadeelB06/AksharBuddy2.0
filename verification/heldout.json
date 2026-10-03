@@ -1,0 +1,119 @@
+[
+  {
+    "id": "en-01",
+    "language": "en",
+    "input": "Meera must submit the completed application before 5 PM on Friday. Do not send the original certificates.",
+    "anchors": [
+      "Meera",
+      "5",
+      "Friday"
+    ],
+    "meaning_requirements": "must; before deadline; do not send originals",
+    "origin": "assistant-authored synthetic challenge; not clinical evidence",
+    "human_review": null
+  },
+  {
+    "id": "hi-01",
+    "language": "hi",
+    "input": "मीरा को शुक्रवार शाम 5 बजे से पहले पूरा आवेदन जमा करना आवश्यक है। मूल प्रमाणपत्र न भेजें।",
+    "anchors": [
+      "मीरा",
+      "शुक्रवार",
+      "5"
+    ],
+    "meaning_requirements": "mandatory submission before deadline; prohibition on originals",
+    "origin": "assistant-authored synthetic challenge; not clinical evidence",
+    "human_review": null
+  },
+  {
+    "id": "mr-01",
+    "language": "mr",
+    "input": "मीराने शुक्रवारी संध्याकाळी 5 वाजण्यापूर्वी पूर्ण अर्ज जमा करणे आवश्यक आहे. मूळ प्रमाणपत्रे पाठवू नका.",
+    "anchors": [
+      "मीराने",
+      "शुक्रवारी",
+      "5"
+    ],
+    "meaning_requirements": "mandatory submission before deadline; prohibition on originals",
+    "origin": "assistant-authored synthetic challenge; not clinical evidence",
+    "human_review": null
+  },
+  {
+    "id": "en-02",
+    "language": "en",
+    "input": "Although the library opens at 9 AM, Ravi cannot borrow more than 3 books unless he presents his membership card.",
+    "anchors": [
+      "9",
+      "Ravi",
+      "3"
+    ],
+    "meaning_requirements": "Library opens at 9 AM; without showing the membership card Ravi cannot borrow more than 3 books. Do not invent an unconditional 3-book maximum or prohibit borrowing fewer books without a card.",
+    "origin": "assistant-authored synthetic challenge; not clinical evidence",
+    "human_review": null
+  },
+  {
+    "id": "hi-02",
+    "language": "hi",
+    "input": "पुस्तकालय सुबह 9 बजे खुलता है, लेकिन रवि सदस्यता कार्ड दिखाए बिना 3 से अधिक पुस्तकें उधार नहीं ले सकता।",
+    "anchors": [
+      "9",
+      "रवि",
+      "3"
+    ],
+    "meaning_requirements": "Library opens at 9 AM; without showing the membership card Ravi cannot borrow more than 3 books. Do not invent an unconditional 3-book maximum or prohibit borrowing fewer books without a card.",
+    "origin": "assistant-authored synthetic challenge; not clinical evidence",
+    "human_review": null
+  },
+  {
+    "id": "mr-02",
+    "language": "mr",
+    "input": "वाचनालय सकाळी 9 वाजता उघडते, परंतु रवी सदस्यत्वाचे कार्ड दाखवल्याशिवाय 3 पेक्षा जास्त पुस्तके उधार घेऊ शकत नाही.",
+    "anchors": [
+      "9",
+      "रवी",
+      "3"
+    ],
+    "meaning_requirements": "Library opens at 9 AM; without showing the membership card Ravi cannot borrow more than 3 books. Do not invent an unconditional 3-book maximum or prohibit borrowing fewer books without a card.",
+    "origin": "assistant-authored synthetic challenge; not clinical evidence",
+    "human_review": null
+  },
+  {
+    "id": "en-03",
+    "language": "en",
+    "input": "Because the bridge is undergoing repairs, bus 24 will use the eastern road until Monday. Passengers should wait outside City School.",
+    "anchors": [
+      "24",
+      "Monday",
+      "City School"
+    ],
+    "meaning_requirements": "repairs cause temporary eastern diversion; until Monday; outside school",
+    "origin": "assistant-authored synthetic challenge; not clinical evidence",
+    "human_review": null
+  },
+  {
+    "id": "hi-03",
+    "language": "hi",
+    "input": "पुल की मरम्मत के कारण बस 24 सोमवार तक पूर्वी सड़क से जाएगी। यात्रियों को सिटी स्कूल के बाहर प्रतीक्षा करनी चाहिए।",
+    "anchors": [
+      "24",
+      "सोमवार",
+      "सिटी स्कूल"
+    ],
+    "meaning_requirements": "repairs; temporary eastern route; until Monday; outside school",
+    "origin": "assistant-authored synthetic challenge; not clinical evidence",
+    "human_review": null
+  },
+  {
+    "id": "mr-03",
+    "language": "mr",
+    "input": "पुलाची दुरुस्ती सुरू असल्यामुळे बस 24 सोमवारपर्यंत पूर्वेकडील रस्त्याने जाईल. प्रवाशांनी सिटी स्कूलच्या बाहेर थांबावे.",
+    "anchors": [
+      "24",
+      "सोमवारपर्यंत",
+      "सिटी स्कूल"
+    ],
+    "meaning_requirements": "repairs; temporary eastern route; until Monday; outside school",
+    "origin": "assistant-authored synthetic challenge; not clinical evidence",
+    "human_review": null
+  }
+]

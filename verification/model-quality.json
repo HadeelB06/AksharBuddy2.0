@@ -1,0 +1,92 @@
+[
+  {
+    "language": "en",
+    "input": "Meera must submit the completed application before 5 PM on Friday. Do not send the original certificates.",
+    "output": "Meera must submit the completed application before 5 PM on Friday. Do not send the original certificates.",
+    "error": null,
+    "seconds": 35.525,
+    "model_load_seconds": 31.324,
+    "inference_and_validation_seconds": 4.201,
+    "changed": false
+  },
+  {
+    "language": "hi",
+    "input": "मीरा को शुक्रवार शाम 5 बजे से पहले पूरा आवेदन जमा करना आवश्यक है। मूल प्रमाणपत्र न भेजें।",
+    "output": "मीरा को शुक्रवार शाम 5 बजे से पहले पूरा आवेदन जमा करना आवश्यक है। मूल प्रमाणपत्र न भेजें।",
+    "error": null,
+    "seconds": 1.859,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 1.859,
+    "changed": false
+  },
+  {
+    "language": "mr",
+    "input": "मीराने शुक्रवारी संध्याकाळी 5 वाजण्यापूर्वी पूर्ण अर्ज जमा करणे आवश्यक आहे. मूळ प्रमाणपत्रे पाठवू नका.",
+    "output": "मीराने शुक्रवारी संध्याकाळी 5 वाजण्यापूर्वी पूर्ण अर्ज जमा करणे आवश्यक आहे. मूळ प्रमाणपत्रे पाठवू नका.",
+    "error": null,
+    "seconds": 1.29,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 1.29,
+    "changed": false
+  },
+  {
+    "language": "en",
+    "input": "Although the library opens at 9 AM, Ravi cannot borrow more than 3 books unless he presents his membership card.",
+    "output": "Although the library opens at 9 AM, Ravi cannot borrow more than 3 books unless he presents his membership card.",
+    "error": null,
+    "seconds": 1.197,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 1.197,
+    "changed": false
+  },
+  {
+    "language": "hi",
+    "input": "पुस्तकालय सुबह 9 बजे खुलता है, लेकिन रवि सदस्यता कार्ड दिखाए बिना 3 से अधिक पुस्तकें उधार नहीं ले सकता।",
+    "output": "पुस्तकालय सुबह 9 बजे खुलता है, लेकिन रवि सदस्यता कार्ड दिखाए बिना 3 से अधिक पुस्तकें उधार नहीं ले सकता।",
+    "error": null,
+    "seconds": 1.272,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 1.272,
+    "changed": false
+  },
+  {
+    "language": "mr",
+    "input": "वाचनालय सकाळी 9 वाजता उघडते, परंतु रवी सदस्यत्वाचे कार्ड दाखवल्याशिवाय 3 पेक्षा जास्त पुस्तके उधार घेऊ शकत नाही.",
+    "output": "वाचनालय सकाळी 9 वाजता उघडते, परंतु रवी सदस्यत्वाचे कार्ड दाखवल्याशिवाय 3 पेक्षा जास्त पुस्तके उधार घेऊ शकत नाही.",
+    "error": null,
+    "seconds": 2.118,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 2.118,
+    "changed": false
+  },
+  {
+    "language": "en",
+    "input": "Because the bridge is undergoing repairs, bus 24 will use the eastern road until Monday. Passengers should wait outside City School.",
+    "output": "Because the bridge is undergoing repairs, bus 24 will use the eastern road until Monday. Passengers should wait outside City School.",
+    "error": null,
+    "seconds": 1.343,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 1.343,
+    "changed": false
+  },
+  {
+    "language": "hi",
+    "input": "पुल की मरम्मत के कारण बस 24 सोमवार तक पूर्वी सड़क से जाएगी। यात्रियों को सिटी स्कूल के बाहर प्रतीक्षा करनी चाहिए।",
+    "output": "पुल की मरम्मत के कारण बस 24 सोमवार तक पूर्वी सड़क से जाएगी। यात्रियों को सिटी स्कूल के बाहर प्रतीक्षा करनी चाहिए।",
+    "error": null,
+    "seconds": 1.118,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 1.118,
+    "changed": false
+  },
+  {
+    "language": "mr",
+    "input": "पुलाची दुरुस्ती सुरू असल्यामुळे बस 24 सोमवारपर्यंत पूर्वेकडील रस्त्याने जाईल. प्रवाशांनी सिटी स्कूलच्या बाहेर थांबावे.",
+    "output": "पुलाची दुरुस्ती सुरू असल्यामुळे बस 24 सोमवारपर्यंत पूर्वेकडील रस्त्याने जाईल. प्रवाशांनी सिटी स्कूलच्या बाहेर थांबावे.",
+    "error": null,
+    "seconds": 1.331,
+    "model_load_seconds": 0.0,
+    "inference_and_validation_seconds": 1.331,
+    "changed": false
+  }
+]

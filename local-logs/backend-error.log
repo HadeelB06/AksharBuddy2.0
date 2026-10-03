@@ -1,0 +1,498 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.68:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:app:request=/health status=200 seconds=0.000 stages={}
+INFO:werkzeug:127.0.0.1 - - [02/Oct/2026 23:34:03] "GET /health HTTP/1.1" 200 -
+INFO:app:request=/health status=200 seconds=0.007 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:09:57] "GET /health HTTP/1.1" 200 -
+INFO:app:request=/health status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:11] "GET /health HTTP/1.1" 200 -
+INFO:app:request=/health status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:15] "GET /health HTTP/1.1" 200 -
+INFO:app:request=/health status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:23] "GET /health HTTP/1.1" 200 -
+INFO:app:request=/health status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:24] "GET /health HTTP/1.1" 200 -
+INFO:app:request=/health status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:24] "GET /health HTTP/1.1" 200 -
+INFO:app:request=/health status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:25] "GET /health HTTP/1.1" 200 -
+INFO:app:request=/health status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:28] "GET /health HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs status=202 seconds=0.981 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:53] "[35m[1mPOST /api/extraction-jobs HTTP/1.1[0m" 202 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:53] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:53] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:modules.performance:stage=decode_resize seconds=1.6413
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:54] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:modules.performance:stage=preprocessing seconds=0.1591
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:55] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:56] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:56] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:10:57] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:modules.performance:stage=ocr_recognition seconds=2.8198
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:00] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:01] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:02] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:03] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:03] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:04] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:05] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:06] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:06] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:07] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:08] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:09] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:10] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:10] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:11] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:12] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:13] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:13] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:14] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:17] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:18] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:19] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+WARNING:easyocr.easyocr:Using CPU. Note: This module is much faster with a GPU.
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:20] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:21] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:21] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:22] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:23] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:24] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+C:\Users\ADMIN\Documents\Playground\AksharBuddy-LAN-repair\AksharBuddy\backend\.venv\Lib\site-packages\torch\ao\nn\quantized\dynamic\modules\rnn.py:162: UserWarning: torch.quantize_per_tensor, torch.quantize_per_channel and other quantized tensor creation functions that produce tensors with dtype torch.quint8, torch.qint8, and torch.qint32 are deprecated and will be removed in a future PyTorch release. Please see https://github.com/pytorch/pytorch/issues/184982 for more information. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\aten\src\ATen\quantized\Quantizer.cpp:116.)
+  w_ih = torch.quantize_per_tensor(
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:25] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:modules.performance:stage=ocr_model_initialization seconds=5.6996
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:26] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:27] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:28] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:29] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:29] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:31] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:31] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:32] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:33] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:34] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:34] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:35] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:36] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:37] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:37] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:38] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:39] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:40] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:40] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:41] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:42] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:43] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:43] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:44] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:45] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:46] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:46] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:47] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:48] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:49] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:49] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:50] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:51] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:52] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:52] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:53] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:54] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:55] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:55] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:56] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:57] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:58] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:58] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:11:59] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:00] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:00] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:01] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:02] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:03] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:03] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:04] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:05] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:06] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:06] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:07] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:08] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:09] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:09] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:10] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:11] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:12] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:12] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:13] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:14] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:15] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:15] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:16] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+C:\Users\ADMIN\Documents\Playground\AksharBuddy-LAN-repair\AksharBuddy\backend\.venv\Lib\site-packages\torch\utils\data\dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:17] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:18] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:18] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:19] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:20] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:21] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:21] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:22] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:modules.performance:stage=easyocr_recognition seconds=56.9783
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.002 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:23] "GET /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:23] "DELETE /api/extraction-jobs/eBiHU8izR6dHuQ7fCS2oRc5nAM-4DVHB HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs status=202 seconds=0.070 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:29] "[35m[1mPOST /api/extraction-jobs HTTP/1.1[0m" 202 -
+INFO:app:request=/api/extraction-jobs/mcceoMnW6CuMGQLP7vcDViQbg1_9AeA8 status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:29] "GET /api/extraction-jobs/mcceoMnW6CuMGQLP7vcDViQbg1_9AeA8 HTTP/1.1" 200 -
+INFO:modules.performance:stage=pdf_native_text seconds=0.0656
+INFO:modules.performance:stage=pdf_native_text seconds=0.0088
+INFO:modules.performance:stage=pdf_native_text seconds=0.0110
+INFO:modules.performance:stage=pdf_native_text seconds=0.0093
+INFO:modules.performance:stage=pdf_native_text seconds=0.0094
+INFO:app:request=/api/extraction-jobs/mcceoMnW6CuMGQLP7vcDViQbg1_9AeA8 status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:30] "GET /api/extraction-jobs/mcceoMnW6CuMGQLP7vcDViQbg1_9AeA8 HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/mcceoMnW6CuMGQLP7vcDViQbg1_9AeA8 status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:12:30] "DELETE /api/extraction-jobs/mcceoMnW6CuMGQLP7vcDViQbg1_9AeA8 HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs status=202 seconds=0.393 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:33] "[35m[1mPOST /api/extraction-jobs HTTP/1.1[0m" 202 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:33] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:34] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:modules.performance:stage=decode_resize seconds=0.9563
+INFO:modules.performance:stage=preprocessing seconds=0.0812
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:35] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:35] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:modules.performance:stage=ocr_recognition seconds=1.2083
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:36] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:37] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:38] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:38] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:39] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:40] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:41] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:41] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:42] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:43] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:44] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:44] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:45] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:46] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:47] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:48] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:48] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:49] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:50] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:51] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:52] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:52] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:53] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:54] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:55] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:55] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:56] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:57] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:58] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:58] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:13:59] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:00] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:01] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:01] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:03] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:04] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:05] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:05] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:06] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:07] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:08] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:09] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:09] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:10] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:11] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:12] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:12] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:13] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:14] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:15] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:16] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:16] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:17] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:18] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:18] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:19] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:20] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:21] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:21] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:22] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:23] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:24] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:24] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:25] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:26] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:27] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:27] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:28] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:29] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:30] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:30] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:31] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:32] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:33] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:34] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:34] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:modules.performance:stage=easyocr_recognition seconds=59.3702
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.002 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:35] "GET /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:14:35] "DELETE /api/extraction-jobs/O1qZmysIkzEnsbRNOVOLfG4Q47D5j5Yj HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs status=202 seconds=0.052 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:15:53] "[35m[1mPOST /api/extraction-jobs HTTP/1.1[0m" 202 -
+INFO:app:request=/api/extraction-jobs/_JSTrXDotvsjrvdNGFc40xn2OwbSueBr status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:15:53] "GET /api/extraction-jobs/_JSTrXDotvsjrvdNGFc40xn2OwbSueBr HTTP/1.1" 200 -
+INFO:modules.performance:stage=decode_resize seconds=0.0728
+INFO:modules.performance:stage=preprocessing seconds=0.0355
+INFO:app:request=/api/extraction-jobs/_JSTrXDotvsjrvdNGFc40xn2OwbSueBr status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:15:54] "GET /api/extraction-jobs/_JSTrXDotvsjrvdNGFc40xn2OwbSueBr HTTP/1.1" 200 -
+INFO:modules.performance:stage=ocr_recognition seconds=0.7563
+INFO:app:request=/api/extraction-jobs/_JSTrXDotvsjrvdNGFc40xn2OwbSueBr status=200 seconds=0.003 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:15:54] "GET /api/extraction-jobs/_JSTrXDotvsjrvdNGFc40xn2OwbSueBr HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/_JSTrXDotvsjrvdNGFc40xn2OwbSueBr status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:15:54] "DELETE /api/extraction-jobs/_JSTrXDotvsjrvdNGFc40xn2OwbSueBr HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs status=202 seconds=2.480 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:16:31] "[35m[1mPOST /api/extraction-jobs HTTP/1.1[0m" 202 -
+INFO:app:request=/api/extraction-jobs/MICee5V9Q13nUmfcdzXkB7ldQv7gcEtM status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:16:31] "GET /api/extraction-jobs/MICee5V9Q13nUmfcdzXkB7ldQv7gcEtM HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/MICee5V9Q13nUmfcdzXkB7ldQv7gcEtM status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:16:31] "DELETE /api/extraction-jobs/MICee5V9Q13nUmfcdzXkB7ldQv7gcEtM HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs status=202 seconds=0.196 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:17:03] "[35m[1mPOST /api/extraction-jobs HTTP/1.1[0m" 202 -
+INFO:app:request=/api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:17:03] "GET /api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW HTTP/1.1" 200 -
+INFO:modules.performance:stage=decode_resize seconds=0.3347
+INFO:app:request=/api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:17:03] "GET /api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:17:04] "GET /api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW HTTP/1.1" 200 -
+INFO:modules.performance:stage=preprocessing seconds=1.8404
+INFO:app:request=/api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:17:05] "GET /api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:17:05] "GET /api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:17:06] "GET /api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW HTTP/1.1" 200 -
+INFO:modules.performance:stage=ocr_recognition seconds=1.7791
+INFO:app:request=/api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW status=200 seconds=0.001 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:17:07] "GET /api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:17:07] "DELETE /api/extraction-jobs/w5m6H62uugQIPX0B3b5y3foX_Unz71NW HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs status=202 seconds=0.012 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:18:18] "[35m[1mPOST /api/extraction-jobs HTTP/1.1[0m" 202 -
+INFO:app:request=/api/extraction-jobs/kzWqlx93Qn75_jO8oN1o3aXnPp-gyfM_ status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:18:18] "GET /api/extraction-jobs/kzWqlx93Qn75_jO8oN1o3aXnPp-gyfM_ HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/kzWqlx93Qn75_jO8oN1o3aXnPp-gyfM_ status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:18:19] "GET /api/extraction-jobs/kzWqlx93Qn75_jO8oN1o3aXnPp-gyfM_ HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/kzWqlx93Qn75_jO8oN1o3aXnPp-gyfM_ status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:18:19] "DELETE /api/extraction-jobs/kzWqlx93Qn75_jO8oN1o3aXnPp-gyfM_ HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs status=202 seconds=0.015 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:18:27] "[35m[1mPOST /api/extraction-jobs HTTP/1.1[0m" 202 -
+INFO:app:request=/api/extraction-jobs/0m05m4dDTs6_WOLaXRquQpJ0xMgXzYxz status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:18:27] "GET /api/extraction-jobs/0m05m4dDTs6_WOLaXRquQpJ0xMgXzYxz HTTP/1.1" 200 -
+INFO:app:request=/api/extraction-jobs/0m05m4dDTs6_WOLaXRquQpJ0xMgXzYxz status=200 seconds=0.000 stages={}
+INFO:werkzeug:192.168.29.165 - - [03/Oct/2026 00:18:27] "DELETE /api/extraction-jobs/0m05m4dDTs6_WOLaXRquQpJ0xMgXzYxz HTTP/1.1" 200 -

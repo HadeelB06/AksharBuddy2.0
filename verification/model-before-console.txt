@@ -1,0 +1,6 @@
+{'language': 'en', 'error': None, 'seconds': 42.548, 'model_load_seconds': 39.912, 'inference_and_validation_seconds': 2.636, 'changed': False}
+{'language': 'hi', 'error': None, 'seconds': 1.038, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 1.038, 'changed': False}
+{'language': 'mr', 'error': None, 'seconds': 0.761, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 0.761, 'changed': False}
+{'language': 'en', 'error': None, 'seconds': 0.733, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 0.733, 'changed': False}
+{'language': 'hi', 'error': None, 'seconds': 0.803, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 0.803, 'changed': False}
+{'language': 'mr', 'error': None, 'seconds': 0.849, 'model_load_seconds': 0.0, 'inference_and_validation_seconds': 0.849, 'changed': False}

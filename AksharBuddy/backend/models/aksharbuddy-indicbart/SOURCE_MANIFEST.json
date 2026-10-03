@@ -1,0 +1,27 @@
+{
+  "config.json": {
+    "bytes": 975,
+    "sha256": "2ab62f0201f89353fa8ad17b403e2a4fc72e3821ffaf9632544f7cbedf60724b",
+    "drive_id": "12IyAAGYgR_M08CkramhY85PfE9zDkV-i"
+  },
+  "generation_config.json": {
+    "bytes": 185,
+    "sha256": "c6ff51444d3137dfc4dd69e8216f0ba4927346fce59375f6b75acdee8555427d",
+    "drive_id": "1xsOYOFVioQO0Fif9cmTj5IfW-yjNvZ5f"
+  },
+  "tokenizer.json": {
+    "bytes": 5038842,
+    "sha256": "9eea14d705c589683034dc4dad8e7ab0039388f510d13e881962ef4157e5bf12",
+    "drive_id": "1jXS3JIP63_2elHh5uj8NgZBBDV4W3ixO"
+  },
+  "tokenizer_config.json": {
+    "bytes": 638,
+    "sha256": "051043a5fffece55703994050f0198d6bec2016e3dc42638557ba9eca0af178f",
+    "drive_id": "1-cSvAqz4aWEBxxrzeqgkQE9o8MLt0Lm3"
+  },
+  "model.safetensors": {
+    "bytes": 976355336,
+    "sha256": "60aae53af149bbe818eb03664aef4a2ccd64d5e132b8f954f2a8e0f394ba4606",
+    "drive_id": "1ki2taoylk8VcE9HoJcRS5F02lNyDhkxm"
+  }
+}

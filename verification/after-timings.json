@@ -1,0 +1,72 @@
+[
+  {
+    "file": "tiny.png",
+    "status": 200,
+    "seconds": 1.714,
+    "stages": {
+      "decode_resize": 0.0301,
+      "preprocessing": 0.0746,
+      "ocr_recognition": 1.5346
+    },
+    "bytes": 8442,
+    "text": "Nina has 12 books.\nDo not move the blue box.",
+    "transport": "Flask test client; excludes Wi-Fi transfer",
+    "model_inference": false
+  },
+  {
+    "file": "tiny.png",
+    "status": 200,
+    "seconds": 0.234,
+    "stages": {
+      "decode_resize": 0.0036,
+      "preprocessing": 0.0174,
+      "ocr_recognition": 0.2039
+    },
+    "bytes": 8442,
+    "text": "Nina has 12 books.\nDo not move the blue box.",
+    "transport": "Flask test client; excludes Wi-Fi transfer",
+    "model_inference": false
+  },
+  {
+    "file": "normal.png",
+    "status": 200,
+    "seconds": 1.044,
+    "stages": {
+      "decode_resize": 0.0828,
+      "preprocessing": 0.1242,
+      "ocr_recognition": 0.7801
+    },
+    "bytes": 134742,
+    "text": "Reading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.",
+    "transport": "Flask test client; excludes Wi-Fi transfer",
+    "model_inference": false
+  },
+  {
+    "file": "digital.pdf",
+    "status": 200,
+    "seconds": 0.067,
+    "stages": {
+      "pdf_native_text": 0.0391
+    },
+    "bytes": 1766,
+    "text": "Page 1. Nina has 12 books. Do not move the blue box. The office opens at 10 AM.\n\nPage 2. Nina has 12 books. Do not move the blue box. The office opens at 10 AM.\n\nPage 3. Nina has 12 books. Do not move the blue box. The office opens at 10 AM.",
+    "transport": "Flask test client; excludes Wi-Fi transfer",
+    "model_inference": false
+  },
+  {
+    "file": "scanned.pdf",
+    "status": 200,
+    "seconds": 4.318,
+    "stages": {
+      "pdf_native_text": 0.0084,
+      "pdf_rasterize": 0.6712,
+      "decode_resize": 0.2331,
+      "preprocessing": 0.412,
+      "ocr_recognition": 2.7518
+    },
+    "bytes": 7984204,
+    "text": "Reading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\n\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\n\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.\nReading practice\nNina has 12 books. Do not move the blue box.\nThe office opens at 10 AM and closes at 6 PM.",
+    "transport": "Flask test client; excludes Wi-Fi transfer",
+    "model_inference": false
+  }
+]

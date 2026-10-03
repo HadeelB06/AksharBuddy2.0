@@ -1,0 +1,29 @@
+test_async_extraction_never_loads_model (test_lan_repair.RepairTests.test_async_extraction_never_loads_model) ... ok
+test_changed_details_rejected (test_lan_repair.RepairTests.test_changed_details_rejected) ... ok
+test_health_identifies_repair (test_lan_repair.RepairTests.test_health_identifies_repair) ... ok
+test_safe_values_preserved (test_lan_repair.RepairTests.test_safe_values_preserved) ... ok
+test_shared_script_language_switch_rejected (test_lan_repair.RepairTests.test_shared_script_language_switch_rejected) ... ok
+test_short_digital_pdf_never_ocr (test_lan_repair.RepairTests.test_short_digital_pdf_never_ocr) ... ok
+test_invalid_language_and_input (test_local_model.LocalModelContractTests.test_invalid_language_and_input) ... ok
+test_legacy_endpoint_shares_validation_and_errors (test_local_model.LocalModelContractTests.test_legacy_endpoint_shares_validation_and_errors) ... ok
+test_model_failure_does_not_silently_return_original (test_local_model.LocalModelContractTests.test_model_failure_does_not_silently_return_original) ... ok
+test_numbers_and_negation_are_guarded (test_local_model.LocalModelContractTests.test_numbers_and_negation_are_guarded) ... ok
+test_tables_are_not_rewritten (test_local_model.LocalModelContractTests.test_tables_are_not_rewritten) ... ok
+test_unchanged_output_is_not_a_quality_pass (test_local_model.LocalModelContractTests.test_unchanged_output_is_not_a_quality_pass) ... ok
+test_word_definition_limitation_is_explicit (test_local_model.LocalModelContractTests.test_word_definition_limitation_is_explicit) ... ok
+test_borderless_table_requires_repeated_multi_cell_rows (test_structure_analyzer.SectionStructureTests.test_borderless_table_requires_repeated_multi_cell_rows) ... ok
+test_full_width_lines_are_not_misclassified_as_columns (test_structure_analyzer.SectionStructureTests.test_full_width_lines_are_not_misclassified_as_columns) ... ok
+test_genuine_bordered_grid_remains_a_table (test_structure_analyzer.SectionStructureTests.test_genuine_bordered_grid_remains_a_table) ... ok
+test_heading_content_relationships_follow_vertical_order (test_structure_analyzer.SectionStructureTests.test_heading_content_relationships_follow_vertical_order) ... ok
+test_lowercase_latin_body_line_is_not_a_heading (test_structure_analyzer.SectionStructureTests.test_lowercase_latin_body_line_is_not_a_heading) ... ok
+test_nearby_words_on_same_line_are_not_split (test_structure_analyzer.SectionStructureTests.test_nearby_words_on_same_line_are_not_split) ... ok
+test_normal_paragraph_stays_readable_text (test_structure_analyzer.SectionStructureTests.test_normal_paragraph_stays_readable_text) ... ok
+test_repeated_gutter_preserves_true_two_column_layout (test_structure_analyzer.SectionStructureTests.test_repeated_gutter_preserves_true_two_column_layout) ... ok
+test_invalid_request_rejected (test_word_help.WordHelpTests.test_invalid_request_rejected) ... ok
+test_no_fabricated_dictionary_response (test_word_help.WordHelpTests.test_no_fabricated_dictionary_response) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.190s
+
+OK
+firebase_key.json not found - Firebase disabled for this session

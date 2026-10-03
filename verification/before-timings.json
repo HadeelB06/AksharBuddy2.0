@@ -1,0 +1,76 @@
+[
+  {
+    "file": "tiny.png",
+    "status": 200,
+    "seconds": 39.723,
+    "stages": {
+      "_deskew_image": 0.066,
+      "_detect_table_grid": 0.007,
+      "_get_reader": 33.621,
+      "easyocr_recognition": 5.534,
+      "_easyocr_detections": 0.001
+    },
+    "bytes": 8442,
+    "text": "Nina has \u0967\u0968 books.\nDo not move the blue box.",
+    "transport": "Flask test client; excludes Wi-Fi transfer",
+    "model_inference": false
+  },
+  {
+    "file": "tiny.png",
+    "status": 200,
+    "seconds": 4.841,
+    "stages": {
+      "_deskew_image": 0.031,
+      "_detect_table_grid": 0.004,
+      "_get_reader": 0.0,
+      "easyocr_recognition": 4.779,
+      "_easyocr_detections": 0.0
+    },
+    "bytes": 8442,
+    "text": "Nina has \u0967\u0968 books.\nDo not move the blue box.",
+    "transport": "Flask test client; excludes Wi-Fi transfer",
+    "model_inference": false
+  },
+  {
+    "file": "normal.png",
+    "status": 200,
+    "seconds": 89.977,
+    "stages": {
+      "_deskew_image": 0.068,
+      "_detect_table_grid": 0.046,
+      "_get_reader": 0.0,
+      "easyocr_recognition": 89.748,
+      "_easyocr_detections": 0.001
+    },
+    "bytes": 134742,
+    "text": "Reading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966 AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books. Do not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books. Do not move the blue box.\nThe office opens at \u0967\u0966 AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.",
+    "transport": "Flask test client; excludes Wi-Fi transfer",
+    "model_inference": false
+  },
+  {
+    "file": "digital.pdf",
+    "status": 200,
+    "seconds": 0.123,
+    "stages": {},
+    "bytes": 1766,
+    "text": "Page 1. Nina has 12 books. Do not move the blue box. The office opens at 10 AM.\n\nPage 2. Nina has 12 books. Do not move the blue box. The office opens at 10 AM.\n\nPage 3. Nina has 12 books. Do not move the blue box. The office opens at 10 AM.",
+    "transport": "Flask test client; excludes Wi-Fi transfer",
+    "model_inference": false
+  },
+  {
+    "file": "scanned.pdf",
+    "status": 200,
+    "seconds": 274.264,
+    "stages": {
+      "_deskew_image": 0.242,
+      "_detect_table_grid": 0.16,
+      "_get_reader": 0.0,
+      "easyocr_recognition": 272.134,
+      "_easyocr_detections": 0.002
+    },
+    "bytes": 7984204,
+    "text": "Reading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966 AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966 AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM\n\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966 AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966 AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM\n\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966 AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966 AM and closes at 6 PM.\nReading practice\nNina has \u0967\u0968 books.\nDo not move the blue box.\nThe office opens at \u0967\u0966AM and closes at 6 PM",
+    "transport": "Flask test client; excludes Wi-Fi transfer",
+    "model_inference": false
+  }
+]

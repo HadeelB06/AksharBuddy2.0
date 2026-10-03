@@ -1,0 +1,22 @@
+[
+  {
+    "name": "config.json",
+    "id": "12IyAAGYgR_M08CkramhY85PfE9zDkV-i"
+  },
+  {
+    "name": "generation_config.json",
+    "id": "1xsOYOFVioQO0Fif9cmTj5IfW-yjNvZ5f"
+  },
+  {
+    "name": "tokenizer.json",
+    "id": "1jXS3JIP63_2elHh5uj8NgZBBDV4W3ixO"
+  },
+  {
+    "name": "tokenizer_config.json",
+    "id": "1-cSvAqz4aWEBxxrzeqgkQE9o8MLt0Lm3"
+  },
+  {
+    "name": "model.safetensors",
+    "id": "1ki2taoylk8VcE9HoJcRS5F02lNyDhkxm"
+  }
+]

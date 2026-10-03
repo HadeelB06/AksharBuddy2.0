@@ -1,0 +1,191 @@
+[
+  {
+    "name": "en-clean",
+    "language": "en",
+    "seconds": 0.642,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": "Reading practice\nThe sun rises in the east.\nWe read  a book every day."
+  },
+  {
+    "name": "en-blur-2",
+    "language": "en",
+    "seconds": 0.27,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": "Reading practice\nThe sun rises in the east.\nWe read  a book every day."
+  },
+  {
+    "name": "en-blur-4",
+    "language": "en",
+    "seconds": 0.286,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.6429,
+    "actual": "Reading practice\nThe sun rises in the east.\nWe read  a book every day."
+  },
+  {
+    "name": "en-rotate-8",
+    "language": "en",
+    "seconds": 0.319,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": "Reading practice\nThe sun rises in the east.\nWe read  a book every day."
+  },
+  {
+    "name": "en-low-resolution",
+    "language": "en",
+    "seconds": 0.271,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0714,
+    "actual": "Reading practice\nThe sun rises in the east.\nWe read a book every day."
+  },
+  {
+    "name": "hi-clean",
+    "language": "hi",
+    "seconds": 0.624,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": "पढ़ने का अभ्यास\nसूरज पूर्व में उगता है।\nहम हर दिन किताब पढ़ते हैं।"
+  },
+  {
+    "name": "hi-blur-2",
+    "language": "hi",
+    "seconds": 0.576,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": "पढ़ने का अभ्यास\nसूरज पूर्व में उगता है।\nहम हर दिन किताब पढ़ते हैं।"
+  },
+  {
+    "name": "hi-blur-4",
+    "language": "hi",
+    "seconds": 0.581,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.7143,
+    "actual": "पढ़ने का अभ्यास\nसूरज पूर्व में उगता है।\nहम हर दिन किताब पढ़ते हैं।"
+  },
+  {
+    "name": "hi-rotate-8",
+    "language": "hi",
+    "seconds": 0.466,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": "पढ़ने का अभ्यास\nसूरज पूर्व में उगता है।\nहम हर दिन किताब पढ़ते हैं।"
+  },
+  {
+    "name": "hi-low-resolution",
+    "language": "hi",
+    "seconds": 0.353,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.2857,
+    "actual": "पढ़ने का अभ्यास\nसूरज पूर्व में उगता है।\nहम हर दिन किताब पढ़ते हैं।"
+  },
+  {
+    "name": "mr-clean",
+    "language": "mr",
+    "seconds": 0.41,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": "वाचनाचा सराव\nसूर्य पूर्वेला उगवतो.\nआपण रोज पुस्तक वाचतो."
+  },
+  {
+    "name": "mr-blur-2",
+    "language": "mr",
+    "seconds": 0.425,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": "वाचनाचा सराव\nसूर्य पूर्वेला उगवतो.\nआपण रोज पुस्तक वाचतो."
+  },
+  {
+    "name": "mr-blur-4",
+    "language": "mr",
+    "seconds": 0.451,
+    "status": 200,
+    "wer": 0.2222,
+    "previousWER": 0.2222,
+    "actual": "सूर्य पूर्वेला उगवतो.\nआपण रोज पुस्तक वाचतो."
+  },
+  {
+    "name": "mr-rotate-8",
+    "language": "mr",
+    "seconds": 0.529,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": "वाचनाचा सराव\nसूर्य पूर्वेला उगवतो.\nआपण रोज पुस्तक वाचतो."
+  },
+  {
+    "name": "mr-low-resolution",
+    "language": "mr",
+    "seconds": 0.47,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": "वाचनाचा सराव\nसूर्य पूर्वेला उगवतो.\nआपण रोज पुस्तक वाचतो."
+  },
+  {
+    "name": "en-two-columns",
+    "language": "en",
+    "seconds": 0.433,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.037,
+    "actual": "Morning plan\nRead a short story.\nWrite five new words.\nTake a short break.\nEvening plan\nListen to a story.\nReview the saved words.\nFinish before dinner."
+  },
+  {
+    "name": "en-grid-table",
+    "language": "en",
+    "seconds": 0.416,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": "Item | Quantity | Price\nBooks | 2 | 120\nPens | 5 | 50\nTotal | 7 | 170"
+  },
+  {
+    "name": "blank-page",
+    "language": "en",
+    "seconds": 0.272,
+    "status": 400,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": ""
+  },
+  {
+    "name": "en-real-handwriting",
+    "language": "en",
+    "seconds": 0.451,
+    "status": 200,
+    "wer": 0.3333,
+    "previousWER": 0.9167,
+    "actual": "You must be the ange\nvou wane  to  See  in the woud |"
+  },
+  {
+    "name": "en-digital-columns-pdf",
+    "language": "en",
+    "seconds": 0.026,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.0,
+    "actual": "Morning plan\nRead a short story.\nWrite five new words.\nTake a short break.\nEvening plan\nListen to a story.\nReview the saved words.\nFinish before dinner."
+  },
+  {
+    "name": "en-scanned-columns-pdf",
+    "language": "en",
+    "seconds": 0.437,
+    "status": 200,
+    "wer": 0.0,
+    "previousWER": 0.1111,
+    "actual": "Morning plan\nRead a short story.\nWrite five new words.\nTake a short break.\nEvening plan\nListen to a story.\nReview the saved words.\nFinish before dinner."
+  }
+]
